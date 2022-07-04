@@ -211,3 +211,65 @@ header p {
   color: #667085;
   margin: 20px 0 60px 0;
 }
+
+.vagas_abertas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vagas_abertas span {
+  width: 768px;
+  height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #101828;
+  margin-bottom: 32px;
+  margin-top: 64px;
+}
+
+.job_post {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 24px 28px;
+  gap: 24px;
+  width: 768px;
+  height: 136px;
+  background: #ffffff;
+  border: 1px solid #eaecf0;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+
+.title_vagas_abertas {
+  width: 720px;
+  height: 28px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+}
+
+.content_vagas_abertas {
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  background: #ffffff;
+  margin-top: 15px;
+}
+
+.salario_vaga {
+  padding-left: 24px;
+}
